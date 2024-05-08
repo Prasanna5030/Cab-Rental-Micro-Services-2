@@ -1,0 +1,14 @@
+package com.sl;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+@EnableEurekaServer
+@SpringBootApplication
+public class CabEurekaServerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CabEurekaServerApplication.class, args);
+	}
+
+}
